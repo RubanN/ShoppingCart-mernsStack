@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import MenuIcon from '@material-ui/icons/Menu';
 const Navbar = ({ click }) => {
     return (
         <nav className="navbar">

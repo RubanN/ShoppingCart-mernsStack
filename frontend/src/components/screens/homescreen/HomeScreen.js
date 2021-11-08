@@ -1,9 +1,21 @@
 import React from 'react'
+import Product from '../../products/Product'
 import './HomeScreen.css'
 const HomeScreen = () => {
     return (
-        <div>
-            <h1>HomeScreen</h1>
+        <div className="homescreen">
+            <h2 className="homescreen__title">Latest products</h2>
+            <div className="homescreen__products">
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+
+            </div>
         </div>
     )
 }
